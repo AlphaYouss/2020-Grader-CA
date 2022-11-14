@@ -1,0 +1,11 @@
+.row-padding {
+    padding: 8px 25px;
+}
+
+.button-col {
+    display: grid;
+}
+
+.white-text {
+    color: white !important;
+}

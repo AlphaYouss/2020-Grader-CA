@@ -1,0 +1,61 @@
+.scores{
+    justify-content: left;
+}
+
+.scoring-div
+{
+    text-align: center;
+}
+
+.scoring-text-label
+{
+    margin-top: 5%;
+    color: gray;
+    font-size: 15px;
+}
+
+.rating-buttons {
+    background-color: #5a5a5a;
+    border: solid 1px black;
+    color: white;
+}
+
+.rating-buttons:focus {
+    background-color: #5aad5a;
+    cursor: default;
+    border: solid 1px black;
+}
+
+.rating-buttons-correct
+{
+    background-color: #5aad5a;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.rating-buttons-correct:hover{
+    color: white;
+    cursor: default;
+}
+
+.rating-buttons-system:disabled {
+    background-color: black;
+    cursor: default;
+    border: solid 1px black;
+}
+
+#correctorRating:hover{
+    background-color: rgba(90, 173, 90, 0.51);
+    color: black;
+ }
+
+.rating-buttons-system-correct:disabled{
+    background-color: #e94f2c;
+
+    cursor: default;
+    border: solid 1px black;
+}
+
+.rating-buttons-system-correct:hover{
+    cursor: default;
+}
